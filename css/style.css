@@ -1,0 +1,211 @@
+
+body {
+	font-family: FakePearl-Regular;
+	animation-duration: 3.5s;
+	animation-name: fadeIn;}
+
+	@keyframes fadeIn{
+	from {opacity:0;}
+	to {opacity:1;}
+}
+
+/*設定通用的中文字體*/
+@font-face {
+  	font-family: FakePearl-Regular;
+  	src: url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff2) format("woff2")
+  	, url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff) format("woff");
+}
+
+
+.container {
+
+}
+
+/*設定讓圖片靠左或靠右*/
+.con1 {
+	margin-right: 0;
+}
+
+.con2 {
+	margin-left: 0;
+}
+
+/*設定讓圖片二四的字不要擠在一起*/
+.story {
+	padding-left: 120px;
+}
+
+/*設定讓圖片ㄧ的字不要擠在一起*/
+.story1 {
+	padding-right: 50px;
+}
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+	}
+}
+
+.navbar-brand img {
+	height: 50px;
+}
+
+
+.banner {
+	margin-top: 76px;
+}
+
+.banner .container-fluid {
+	padding:0!important;
+}
+
+/*設定所有首頁內文大小的字*/
+.word {
+	font-size: 30px;
+}
+
+.about {
+	padding-top: 100px;
+	padding-bottom: 150px;
+	background-color: #ffffff;
+}
+
+.abouttitle {
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+
+.line1 {
+	background-color: #FDE166;
+	height: 5px;
+	width: 116px;
+	border: none;
+	margin-top: 1.5px;
+	margin-left: 20px;
+	margin-bottom: 50px;
+
+}
+
+.aboutword {
+	text-align: center;
+}
+
+.firstsection {
+	background-color: #F3F2E5;
+}
+
+.p1-1 {
+	padding: 0 0;
+}
+
+.firstsection img:hover {
+	opacity: 0.8;
+}
+
+.fstitle {
+	font-size: 48px;
+	padding-top: 180px;
+}
+
+.story1 {
+
+}
+
+.secondsection {
+	background-color: #E7ECD0;
+}
+
+.p1-2 {
+	padding: 0 0;
+}
+
+.secondsection img:hover {
+	opacity: 0.8;
+}
+
+.sstitle {
+	font-size: 48px;
+	padding-top: 180px;
+}
+
+
+.thirdsection {
+	background-color: #F4F2C9;
+}
+
+.p1-3 {
+	padding: 0 0;
+}
+
+.thirdsection img:hover {
+	opacity: 0.8;
+}
+
+
+.tstitle {
+	font-size: 48px;
+	padding-top: 180px;
+}
+
+.recommand {
+	background-color: #EFE4CA;
+}
+
+.p1-4 {
+	padding: 0 0;
+}
+
+.recommand img:hover {
+	opacity: 0.8;
+}
+.rtitle {
+	font-size: 48px;
+	padding-top: 180px;
+}
+
+
+/*設定圖片不要跑版*/
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+/*設定index標題引號*/
+.quote:before {
+    content: " “ ";
+    color: #fffff;
+    left: -0.5em;
+    top: -0.1em;
+    font-size: 160%;
+ }
+
+
+
+/*page2 CSS設定*/
+.page2h1 {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+
+.benefit {
+	background-color: #FFF7BD;
+	margin: 0 50px;
+}
+
+.benword {
+	font-size: 30px;
+	padding: 40px 100px;
+
+}
+
+/*設定page2標題引號*/
+.p2quote:before {
+    content: " “ ";
+    color: #FDE166;
+    left: -0.5em;
+    top: -0.1em;
+    font-size: 160%;
+ }
+ 

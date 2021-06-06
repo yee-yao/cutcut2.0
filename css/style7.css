@@ -1,0 +1,136 @@
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:Georgia,sans-serif,Microsoft JhengHei;	
+}
+
+
+p {
+	font-size: 16px;
+}
+
+
+/*navbar*/
+.navbar-brand img {
+	height: 50px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+ }
+}
+
+.navbar-nav {
+	margin-left: 650px;
+}
+
+
+
+
+/* 三色便當*/
+
+.container {
+	margin-top: 76px;
+	margin-left: 150px;
+	margin-right: 150px;
+	
+}
+
+/* 三色便當標題*/
+.text{
+	padding-top:110px;
+	padding-bottom: 47px;
+	text-align:center
+	
+}
+
+.container img {
+padding:0!important;
+display:block;
+margin:0px auto ;
+
+max-width:750px;
+myimg:expression(onload=function(){
+this.style.width=(this.offsetWidth > 600)?"600px":"auto"});
+
+}
+
+
+.caption {
+	padding:30px;
+	max-width: 850px;
+	margin-left:145px;
+}
+
+.content figcaption {   
+	padding:30px;
+}
+
+
+/*其他選擇*/
+.product {
+	
+	padding-bottom:70px;
+}
+
+.product img {
+	width:100%;
+	margin-bottom:20px;
+}
+
+.product img:hover {
+	opacity: 0.8;
+}
+
+.product_name {
+	text-align:center;
+}
+
+.box-title {
+	font-size: 9pt
+
+}
+
+	
+}
+
+.col-12{
+	display: flex;
+	flex-direction: row 
+	flex-wrap:nowrap;
+	justify-content: space-between;
+	padding-left: 30px;
+	margin-bottom: 15px;
+	border: 2px solid blue;
+
+}
+
+.col-md-3
+{
+	padding-top: 30px;
+
+}
+
+.leftbox {
+border: 2px solid blue;
+	
+}
+
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+
+}
+}

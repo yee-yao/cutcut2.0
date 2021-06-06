@@ -1,0 +1,209 @@
+html {
+	margin-left: 140px;
+	margin-right: 140px;
+	background-color: #F7F5F3;
+}
+
+/*navbar*/
+.navbar-brand img {
+	height: 50px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+ }
+}
+
+.navbar-nav {
+	margin-left: 650px;
+}
+
+/*封面*/
+#cover {
+	position: relative;
+	padding: 0 0;
+	text-align: center;
+}
+
+#cover p {
+	font-family: "Georgia";
+	font-size: 72px;
+	color: #fff;
+	position: absolute;
+	padding-left: 55px;
+	padding-top: 130px;
+}
+
+.quote:before {
+    content: " “ ";
+    color: #bd9f77;
+    left: -0.5em;
+    top: -0.1em;
+    font-size: 160%;
+ }
+
+#cover img {
+	float: right;
+	padding-top: 40px;
+	background-color: #F7F5F3;
+}
+
+#leftcover {
+	position: absolute;
+}
+
+/*引文*/
+#passage {
+	background-color: #F7F5F3;
+}
+
+.topic {
+	font-family: "Georgia";
+}
+
+.content {
+	margin-left: 53px;
+	font-size: 24px;
+}
+
+/*早餐*/
+#breakfast {
+	padding-right: 0px;
+	padding-bottom: 50px;
+	border-bottom: solid 1px #787D7B;
+	position: relative;
+	background-color: #F7F5F3;
+	width: 1121.61px;
+}
+
+.topicb p {
+	padding-bottom: 10px;
+	font-family: "Georgia";
+}
+
+.pictureb {
+	padding: 0 0;
+}
+
+.b1 img {
+	float: right;
+}
+
+.b2 img {
+	float: right;
+}
+
+.b3 img {
+	float: right;
+}
+
+.menub {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-top: 20px;
+	text-align: right;
+}
+
+.menub a {
+	text-decoration: none;
+	color: black;
+}
+
+.menub p {
+	font-size: 24px;
+}
+
+/*午餐*/
+#lunch {
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 50px;
+	border-bottom: solid 1px #787D7B;
+	background-color: #F7F5F3;
+	width: 1121.61px;
+}
+
+.topicl p {
+	padding-bottom: 10px;
+	font-family: "Georgia";
+}
+
+.picturel {
+	padding: 0 0;
+}
+
+.l1 img {
+	float: right;
+}
+
+.l2 img {
+	float: right;
+}
+
+.l3 img {
+	float: right;
+}
+
+.menul {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-top: 20px;
+	text-align: right;
+}
+
+.menul a {
+	text-decoration: none;
+	color: black;
+}
+
+.menul p {
+	font-size: 24px;
+}
+
+/*晚餐*/
+#dinner {
+	margin-top: 0px;
+	padding-top: 0px;
+	background-color: #F7F5F3;
+	width: 1121.61px;
+}
+
+.topicd p {
+	padding-bottom: 10px;
+	font-family: "Georgia";
+}
+
+.pictured {
+	padding: 0 0;
+}
+
+.d1 img {
+	float: right;
+}
+
+.d2 img {
+	float: right;
+}
+
+.d3 img {
+	float: right;
+}
+
+.menud {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-top: 20px;
+	text-align: right;
+}
+
+.menud a {
+	text-decoration: none;
+	color: black;
+}
+
+.menud p {
+	font-size: 24px;
+}
