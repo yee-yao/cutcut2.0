@@ -180,25 +180,56 @@ body {
     font-size: 160%;
  }
 
+/*特效*/
+.typing {
+  width: 10em;
+  white-space: nowrap;
+  border-right: 2px solid transparent;
+  animation: typing 3.5s steps(10, end), blinkCursor 0.75s step-end infinite;
+  overflow: hidden;
+  letter-spacing: 0;
+}
 
+/* 打字動畫 */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 10em;
+  }
+}
+
+/* 閃爍游標 */
+@keyframes blinkCursor {
+  from,
+  to {
+    box-shadow: 2px 0 0 0 transparent;
+  }
+  50% {
+    box-shadow: 2px 0 0 0;
+  }
+}
 
 /*page2 CSS設定*/
 .page2h1 {
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 150px;
 	margin-bottom: 30px;
 }
 
 .benefit {
 	background-color: #FFF7BD;
-	margin: 0 50px;
+	margin: 0 50px 150px 50px;
 }
 
 .benword {
-	font-size: 30px;
-	padding: 40px 100px;
+	font-size: 25px;
+	padding: 60px 100px;
 
 }
+
+
 
 /*設定page2標題引號*/
 .p2quote:before {
